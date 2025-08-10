@@ -18,10 +18,12 @@
     flex-direction: column;
 }
 #navbar ul li a{
-    margin: 8px;
-    font-size: 0.93rem;
+    margin: 6px;
+    font-size: 1.19rem;
 }
 #navbar ul li a:hover{
+    text-decoration: underline orangered;
+    cursor: pointer;
     font-size: 1.23rem;
 }
 #container{
