@@ -1,6 +1,3 @@
-body{
-    /* background-color: rgb(182, 86, 86); */
-}
 /* home */
 .home{
     /* height: 949px; */
@@ -21,8 +18,8 @@ body{
     flex-direction: column;
 }
 #navbar ul li a{
-    margin: 13px;
-    /* font-size: 1.23rem; */
+    font-size: 1.2rem;
+    margin: 10px;
 }
 #navbar ul li a:hover{
     font-size: 1.23rem;
