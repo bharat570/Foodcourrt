@@ -1,0 +1,75 @@
+body{
+    /* background-color: rgb(182, 86, 86); */
+}
+/* home */
+.home{
+    /* height: 949px; */
+    height: fit-content;
+}
+.box h1{
+    font-size: 2rem;
+}
+.box{
+    margin: 2.8rem 0.8rem;
+}
+.box p{
+    margin: 2.3rem 0px;
+}
+/* Navbar */
+#navbar{
+    height: 8rem;
+    flex-direction: column;
+}
+#navbar ul li a{
+    margin: 13px;
+    /* font-size: 1.23rem; */
+}
+#navbar ul li a:hover{
+    font-size: 1.23rem;
+}
+#container{
+    height: 1200px;
+}
+
+/* sevices */
+#container .services .plate{
+    border: none;
+}
+#client{
+    height: 359px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    justify-items: center;
+}
+#client .clients{
+    margin: 30px;
+}
+#client .spotify{
+     margin-left: 14px;
+}
+#client .fpk{
+    margin-left: -11px;
+    display: none;
+}
+.services{
+    display: grid;
+        /* border: 3px solid rosybrown; */
+        background: none;
+        height: 702px;
+    background: none;
+}
+#clients{
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+/* menu */
+ .images{
+    height: fit-content;
+    width: 95vw;
+    margin: auto;
+    margin-top: 4px;
+
+      display: flex;
+      flex-direction: column;
+} 
